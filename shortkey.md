@@ -1,0 +1,1 @@
+short key can be edited by modifying file "reviewer.py" in aqt folder

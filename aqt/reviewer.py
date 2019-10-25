@@ -292,7 +292,8 @@ The front of this card is empty. Please run Tools>Empty Cards.""")
             if self.state == "question":
                 self._showAnswerHack()
             elif self.state == "answer":
-                self._answerCard(self._defaultEase())
+            #defaul "again" for pressing ENTER
+                self._answerCard(self._defaultEase()) 
         elif key == "r" or evt.key() == Qt.Key_F5:
             self.replayAudio()
         elif key == "*":
@@ -636,11 +637,14 @@ function showAnswer(txt) {
         ctxt += space + '<font color="#007700">%s</font>' % counts[2]
         return ctxt
 
+#make it defualtAgain
     def _defaultEase(self):
         if self.mw.col.sched.answerButtons(self.card) == 4:
-            return 3
+            #return 3
+            return 1
         else:
-            return 2
+            #return 2
+            return 1
 
     def _answerButtonList(self):
         l = ((1, _("Again")),)
@@ -695,9 +699,9 @@ function showAnswer(txt) {
     def showContextMenu(self):
         opts = [
             [_("Mark Note"), "*", self.onMark],
-            [_("Bury Card"), "-", self.onBuryCard],
+            [_("Bury Card"), "@", self.onBuryCard],
             [_("Bury Note"), "=", self.onBuryNote],
-            [_("Suspend Card"), "@", self.onSuspendCard],
+            [_("Suspend Card"), "-", self.onSuspendCard],
             [_("Suspend Note"), "!", self.onSuspend],
             [_("Delete Note"), "Delete", self.onDelete],
             [_("Options"), "O", self.onOptions],
