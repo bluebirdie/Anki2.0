@@ -24,7 +24,8 @@ by simply typing ~/anki-2.0/runanki in a terminal.
 
 If you'd like to install it system wide, change to the folder you extracted it
 to, and run 'sudo make install'. If you need to uninstall Anki in the future,
-you can do so by typing 'sudo make uninstall'.
+you can do so by typing 'sudo make uninstall'. UNINSTALLATION WILL NOT DELETE 
+DECKS OR ADDONS.
 
 More information
 -----------------

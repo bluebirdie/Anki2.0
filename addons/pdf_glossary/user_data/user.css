@@ -1,0 +1,67 @@
+.header_content {
+    color: #616161;
+}
+
+.title {
+    font-size: 15pt;
+    margin-bottom: 1em;
+}
+
+.card {
+    page-break-inside:avoid;
+    page-break-after:auto;
+}
+
+
+.twocol {
+    column-count: 1;
+}
+
+
+table {
+        font-size: 15pt;
+		border-spacing: 0px
+}
+
+#tr:nth-child(even) {background-color: #f2f2f2;}
+td{
+	border-top: 1px solid #111;
+}
+
+td.count {
+    font-size: 20pt;
+    width: 5%;
+    color: #888888;
+
+}
+td.question {
+    width:35%;
+}
+td.spacer {
+    width: 5%;
+}
+td.answer {
+    width: 55%%;
+}
+
+
+body {
+    font-size: 20pt;
+    font-family: Helvetica, "Helvetia Neue", Arial, sans-serif;
+}
+
+.word_audio, .heading{
+display:none;
+}
+
+.word{
+font-size: 25pt;
+font-weight: bold;
+}
+
+.definitions{
+font-style: italic;
+font-size: 16pt;
+
+}
+

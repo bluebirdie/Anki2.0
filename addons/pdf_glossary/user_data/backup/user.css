@@ -1,0 +1,80 @@
+.header_content {
+    font-size: 8pt;
+    color: #616161;
+}
+
+
+table {
+        font-size: 13pt;
+border-spacing: 0px
+}
+
+
+td {
+    vertical-align: top;
+	border-top: 1px solid #111;
+
+}
+td.question, td.answer {
+    word-break: break-all;
+    word-break: break-word;
+    hyphens: auto;
+}
+td.count {
+    font-size: 9pt;
+    width: 5%;
+    color: #888888;
+}
+td.question {
+    width:35%;
+}
+td.spacer {
+    width: 5%;
+}
+td.answer {
+    width: 55%%;
+}
+
+
+body {
+    font-size: 10pt;
+    font-family: Helvetica, "Helvetia Neue", Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+.card {
+    page-break-inside:avoid;
+    page-break-after:auto;
+}
+.title {
+    font-size: 11pt;
+    margin-bottom: 1em;
+}
+.header_content {
+    font-size: 8pt;
+    color: #616161;
+}
+
+.twocol {
+    column-count: 1;
+}
+
+.word_audio, .heading{
+display:none;
+}
+
+.word{
+font-size: 18pt;
+font-weight: bold;
+}
+
+.definitions{
+font-style: italic;
+font-size: 13pt;
+
+}
+
